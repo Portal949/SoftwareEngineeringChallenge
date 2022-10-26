@@ -19,6 +19,8 @@ Con la inyección de dependencias el servicio se hace escalable ya que incluyend
 
 Y con toda la configuración viniendo desde el appsettings.json esta se oculta al momento de ser publicada y podemos incluir configuraciones extra que podemos utilizar más adelante.
 
+Si quisieramos implementar la escalabilidad pra que el servicio soporte 1 millon de registros la mejor manera seria leer un archivo de texto ya sea formato json o csv y asi facilitar la lectura de cada registro en el programa.
+
 Sobre la automatización, creo que es importante adoptar las nuevas tecnologías, con nuestro servicio en Azure podemos hacer uso del ADO (Azure DevOps) para implementar la gestión de todo el código y a su vez tener todo en una misma plataforma. 
 
 También de pueden implementar otras tecnologías como Jenkins, Nexus (Repository Manager) SonarQube y GitHub para implementar DevOps en nuestra solución y mantener la escalabilidad. 
